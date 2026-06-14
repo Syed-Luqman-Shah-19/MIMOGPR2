@@ -54,7 +54,7 @@ If you use this code or our Spatial-Correlation kernel in your research, please 
 
 ```bibtex
 @ARTICLE{GPR_CSI_WCL2026,
-  author={Your Name and Co-authors},
+  author={Syed Luqman Shah, Nurul Huda Mahmood, and Italo Atzeni},
   journal={IEEE Wireless Communications Letters},
   title={{Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel}},
   year={2026},
@@ -67,4 +67,4 @@ If you use this code or our Spatial-Correlation kernel in your research, please 
 
 ## 📫 Contact
 For questions regarding the implementation or the paper, please reach out to:
-- **[Your Name]** - [Your Email Address]
+- **Syed Luqman Shah** - syed.luqman@oulu.fi
