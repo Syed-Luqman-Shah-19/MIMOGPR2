@@ -56,12 +56,13 @@ If you use this code or our Spatial-Correlation kernel in your research, please 
 @ARTICLE{GPR_CSI_WCL2026,
   author={Syed Luqman Shah, Nurul Huda Mahmood, and Italo Atzeni},
   journal={IEEE Wireless Communications Letters},
-  title={{Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel}},
+  title={{Improved {GPR}-Based {CSI} Acquisition via Spatial-Correlation Kernel}},
   year={2026},
-  volume={XX},
-  number={YY},
-  pages={ZZZ-AAA},
-  doi={10.48550/arXiv.2601.14759}
+  volume={15},
+  number={},
+  pages={3661-3665},
+  doi={10.1109/LWC.2026.3704829},
+  url= {https://doi.org/10.1109/LWC.2026.3704829}
 }
 ```
 
