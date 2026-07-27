@@ -2,7 +2,7 @@
 # Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.14759-b31b1b.svg)](https://doi.org/10.48550/arXiv.2601.14759)
-[![Venue](https://img.shields.io/badge/Published%20In-IEEE%20WCL-blue)](https://ieeexplore.ieee.org/)
+[![Venue](https://img.shields.io/badge/Published%20In-IEEE%20WCL-blue)]([https://ieeexplore.ieee.org/](https://doi.org/10.1109/LWC.2026.3704829))
 
 This repository provides the Python implementation and simulation framework for the paper: **"Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel"**, accepted in *IEEE Wireless Communications Letters*.
 
