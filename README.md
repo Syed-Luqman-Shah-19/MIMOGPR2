@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2601.14759-b31b1b.svg)](https://doi.org/10.48550/arXiv.2601.14759)
 [![Venue](https://img.shields.io/badge/Published%20In-IEEE%20WCL-blue)](https://doi.org/10.1109/LWC.2026.3704829)
 
-This repository provides the Python implementation and simulation framework for the paper: **"Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel"**, accepted in *IEEE Wireless Communications Letters*.
+This repository provides the Python implementation and simulation framework for the paper: **"Improved GPR-Based CSI Acquisition via Spatial-Correlation Kernel"**, published in *IEEE Wireless Communications Letters*.
 
 ## 📖 Abstract
 Accurate channel estimation with low pilot overhead and computational complexity is key to efficiently utilizing multi-antenna wireless systems. Motivated by the evolution from purely statistical descriptions toward physics- and geometry-aware propagation models, this work focuses on incorporating channel information into a Gaussian process regression (GPR) framework for improving the channel estimation accuracy. In this work, we propose a GPR-based channel estimation framework along with a novel _Spatial-Correlation_ (SC) kernel that explicitly captures the channel's second-order statistics. We derive a closed-form expression of the proposed SC-based GPR estimator and prove that its posterior mean is optimal in terms of linear minimum mean-square error (LMMSE) under the same second-order statistics, without requiring the underlying channel distribution to be Gaussian. Our analysis reveals that, even with a $50\%$ pilot overhead reduction, the proposed method achieves the lowest normalized mean-square error, competitive empirical $95\%$ credible-interval coverage, and superior preservation of spectral efficiency compared to benchmark estimators, while maintaining lower computational complexity than the conventional LMMSE estimator.
@@ -13,7 +13,7 @@ Accurate channel estimation with low pilot overhead and computational complexity
 - **Spatial-Correlation Kernel:** A GPR kernel designed specifically for MIMO channel statistics.
 - **MIMO Channel Simulation:** Implementations of Kronecker and Weichselberger models for realistic channel synthesis.
 - **Flexible Pilot Subsampling:** Supports multiple overhead reduction cases (e.g., 25%, 33%, and 50% pilot overhead).
-- **Performance Benchmarking:** Comparative analysis against RBF, Matern, and Rational Quadratic kernels, as well as LS and MMSE baselines.
+- **Performance Benchmarking:** Comparative analysis against RBF, Matern, and Rational Quadratic kernels, as well as LS and MMSE channel estimators baselines.
 - **Uncertainty Quantification:** Calculation of 95% confidence ellipses and joint coverage reliability.
 
 ## 🛠 Methodology
